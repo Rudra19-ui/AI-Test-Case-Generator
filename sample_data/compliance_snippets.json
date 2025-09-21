@@ -1,0 +1,77 @@
+[
+  {
+    "tag": "HIPAA-Security",
+    "text": "Implement technical safeguards for electronic protected health information (ePHI) including access controls, audit controls, integrity controls, and transmission security.",
+    "source": "HIPAA Security Rule 45 CFR § 164.312"
+  },
+  {
+    "tag": "HIPAA-Privacy",
+    "text": "A covered entity must implement policies and procedures to limit uses and disclosures of protected health information to the minimum necessary to accomplish the intended purpose.",
+    "source": "HIPAA Privacy Rule 45 CFR § 164.502(b)"
+  },
+  {
+    "tag": "HIPAA-Breach",
+    "text": "Following the discovery of a breach of unsecured protected health information, a covered entity shall notify each individual whose unsecured protected health information has been, or is reasonably believed to have been, accessed, acquired, used, or disclosed as a result of such breach.",
+    "source": "HIPAA Breach Notification Rule 45 CFR § 164.404"
+  },
+  {
+    "tag": "HIPAA-Audit",
+    "text": "Implement hardware, software, and/or procedural mechanisms that record and examine activity in information systems that contain or use electronic protected health information.",
+    "source": "HIPAA Security Rule 45 CFR § 164.312(b)"
+  },
+  {
+    "tag": "HIPAA-Authentication",
+    "text": "Implement procedures to verify that a person or entity seeking access to electronic protected health information is the one claimed.",
+    "source": "HIPAA Security Rule 45 CFR § 164.312(d)"
+  },
+  {
+    "tag": "FHIR-Resources",
+    "text": "FHIR resources represent granular clinical concepts. The most common resources are those used in clinical care, such as Patient, Practitioner, Encounter, and Observation.",
+    "source": "HL7 FHIR R4 Specification"
+  },
+  {
+    "tag": "FHIR-API",
+    "text": "FHIR APIs use a RESTful approach with JSON or XML formatting. Each resource has a known identity (a URL) that follows a predictable pattern.",
+    "source": "HL7 FHIR R4 Specification"
+  },
+  {
+    "tag": "FHIR-Security",
+    "text": "FHIR security recommendations include the use of TLS/SSL for all production data exchange, OAuth2-based authorization, and digital signatures for high-value transactions.",
+    "source": "HL7 FHIR R4 Security Specification"
+  },
+  {
+    "tag": "FHIR-Validation",
+    "text": "FHIR resources should be validated against profiles that define constraints on data elements to ensure data quality and interoperability.",
+    "source": "HL7 FHIR R4 Validation Specification"
+  },
+  {
+    "tag": "FHIR-Consent",
+    "text": "The FHIR Consent resource is used to capture a healthcare consumer's choices regarding policies, obligations, and permissions that may affect how data is used.",
+    "source": "HL7 FHIR R4 Consent Resource"
+  },
+  {
+    "tag": "21CFR-Part11",
+    "text": "Electronic records and electronic signatures must be trustworthy, reliable, and generally equivalent to paper records and handwritten signatures.",
+    "source": "FDA 21 CFR Part 11"
+  },
+  {
+    "tag": "21CFR-Signatures",
+    "text": "Electronic signatures must employ at least two distinct identification components such as an identification code and password.",
+    "source": "FDA 21 CFR Part 11.200"
+  },
+  {
+    "tag": "GDPR-Consent",
+    "text": "Consent must be freely given, specific, informed and unambiguous indication of the data subject's wishes by which they, by a statement or by a clear affirmative action, signify agreement to the processing of personal data.",
+    "source": "GDPR Article 4(11)"
+  },
+  {
+    "tag": "GDPR-RightToAccess",
+    "text": "The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data.",
+    "source": "GDPR Article 15"
+  },
+  {
+    "tag": "GDPR-DataPortability",
+    "text": "The data subject shall have the right to receive the personal data concerning him or her, which he or she has provided to a controller, in a structured, commonly used and machine-readable format.",
+    "source": "GDPR Article 20"
+  }
+]
